@@ -27,10 +27,7 @@ import java.util.*;
  */
 public class HTTP {
 
-    // private static final String BUNDLE_NAME = "uk.ac.stand.dcs.asa.storage.webdav.impl.HTTP";//$NON-NLS-1$
-
     public static final ResourceBundle BUNDLE = ResourceBundle.getBundle(HTTP.class.getName());
-
 
     public static final int HTTP_UNKNOWN = 0;
     public static final int HTTP_09 = 1;

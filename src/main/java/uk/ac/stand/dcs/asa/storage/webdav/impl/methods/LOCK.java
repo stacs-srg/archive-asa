@@ -43,9 +43,9 @@ public class LOCK extends AbstractHTTPMethod {
 				if (file_system.resolveObject(parent_uri) == null) throw new HTTPException("Parent of lock-null request does not exist", HTTP.RESPONSE_PRECONDITION_FAILED, true);;
 				
 				// Parse the contents.
-				Document d;
+				Document document;
 				try {
-					d = xml_helper.parse(new LengthInputStream( request.getInputStream(), request.getContentLength()));
+					document = xml_helper.parse(new LengthInputStream( request.getInputStream(), request.getContentLength()));
 				}
 				catch (IOException e) { throw new HTTPException(e.getMessage(), HTTP.RESPONSE_BAD_REQUEST); }
 				
@@ -59,7 +59,7 @@ public class LOCK extends AbstractHTTPMethod {
 				// <!ELEMENT shared EMPTY >
 				// <!ELEMENT owner ANY >
 				
-				NodeList lockinfoNL = d.getElementsByTagNameNS(WebDAV.DAV_NS, WebDAV.DAV_LOCKINFO);
+				NodeList lockinfoNL = document.getElementsByTagNameNS(WebDAV.DAV_NS, WebDAV.DAV_LOCKINFO);
 				if( lockinfoNL.getLength() != 1 ) throw new HTTPException("More than 1 " + WebDAV.DAV_LOCKINFO + " nodes found", HTTP.RESPONSE_BAD_REQUEST, true);
 				
 				Node lockInfoNode = lockinfoNL.item(0); // this is the root node
