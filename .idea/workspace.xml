@@ -2,413 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="081c4ee9-42bb-4ef3-b620-93dd42d1c311" name="Default" comment="initial commit - got head from quicksilver cvs repo&#10;&#10;smb://quicksilver.home.cs.st-andrews.ac.uk/quicksilver_private/systems_cvsroot/asa/">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/can/impl/Coord.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/can/impl/HyperCube.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/can/impl/NextHopResult.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/can/impl/NodeViewer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/can/impl/Range.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/can/impl/test/CoordTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/can/impl/viz/CanNodePanel$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/can/impl/viz/CanNodePanel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/can/impl/viz/ShowCanNetwork.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/can/interfaces/CanNode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventModel/Event.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventModel/EventFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventModel/EventSerializer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventModel/IPHost.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventModel/NetworkHost.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventModel/P2PHost.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventModel/eventBus/EventBusImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventModel/eventBus/busInterfaces/EventBus.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventModel/eventBus/busInterfaces/EventConsumer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventModel/eventBus/consumers/DiagnosticEventStringWriter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventModel/eventBus/consumers/ErrorEventStringWriterAdapter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventModel/eventBus/test/EventBusTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventModel/eventBus/test/MyConsumer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventModel/networkEventFactory/factoryInterfaces/INetworkEventFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventdistributor/application/EdClient_Publ.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventdistributor/application/EdClient_Subscr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventdistributor/application/EventFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventdistributor/application/EventMonitor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventdistributor/application/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventdistributor/application/Predicate.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventdistributor/application/ServerMain.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventdistributor/pubsub/EdServer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventdistributor/pubsub/IPredicate.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventdistributor/pubsub/IPublish.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventdistributor/pubsub/ISubscribe.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventdistributor/pubsub/ISubscriber.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/eventdistributor/pubsub/Subscriber.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/experiments/InstantiationTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/experiments/ShowAverageStatsForAllNodes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/experiments/ShowAverageStatsForSampleOfNodes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/experiments/ShowExpectedMeetDepths.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/experiments/ShowKey2IndexTable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/experiments/ShowPathDistances.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/experiments/ShowPathLengthDistributionForNode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/experiments/ShowStatsForAllNodes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/experiments/gloss/GeographicalKeys.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/experiments/gloss/GeographicalKeysTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/impl/StatsStruct.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/interfaces/IDistanceCalculator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/interfaces/IEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/interfaces/IGUID.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/interfaces/IKey.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/interfaces/IPID.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/deploy/NodeLauncherFrame$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/deploy/NodeLauncherFrame$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/deploy/NodeLauncherFrame$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/deploy/NodeLauncherFrame$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/deploy/NodeLauncherFrame$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/deploy/NodeLauncherFrame$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/deploy/NodeLauncherFrame$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/deploy/NodeLauncherFrame$8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/deploy/NodeLauncherFrame.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/deploy/NodeLauncherFrameSinglePane$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/deploy/NodeLauncherFrameSinglePane$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/deploy/NodeLauncherFrameSinglePane$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/deploy/NodeLauncherFrameSinglePane$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/deploy/NodeLauncherFrameSinglePane$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/deploy/NodeLauncherFrameSinglePane$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/deploy/NodeLauncherFrameSinglePane$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/deploy/NodeLauncherFrameSinglePane.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/deploy/ProcessEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/deploy/StringConstants.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/deploy/java_util_ArrayList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/impl/ErrorApplicationContainer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/impl/IntermediateApplicationContainer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/impl/JChordNodeIterator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/impl/KeyRange.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/impl/RootApplicationContainer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/impl/SegmentRangeCalculator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/interfaces/IApplicationGUID.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/interfaces/IJChordApplicationContainer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/interfaces/IJChordIterator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/simulation/P2PSimulationProxy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/jchord/util/JChordProperties.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/AttributeContainer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/Attributes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/Connection.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/ConnectionImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/Model.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/ModelImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/Node.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/NodeImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/PluginLoader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/Preferences.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/RegistryEntry.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/events/EventBus.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/events/EventProducer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/AboutDialog.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/NetworkMonitor$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/NetworkMonitor$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/NetworkMonitor$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/NetworkMonitor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/NetworkMonitorJMenuBar.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/NetworkMonitorJToolBar.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/PluginChooserDialog$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/PluginChooserDialog$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/PluginChooserDialog.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/PreferenceTab.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/PreferencesDialog$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/PreferencesDialog$NonVisualPluginsTab.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/PreferencesDialog$NonVisualPluginsTableModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/PreferencesDialog.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/actions/AboutAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/actions/AddPluginAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/actions/HorizontalTileAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/actions/NetworkMonitorAbstractAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/actions/PrefsAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/actions/QuitAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/actions/RemovePluginAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/core/gui/actions/VerticalTileAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/JChordAttributes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/Plugin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/PluginFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/DummyOutputPlugin$DummyOutputPluginFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/DummyOutputPlugin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/GraphButtonsPanel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/JChordTextOutputPlugin$JChordTextOutputPluginFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/JChordTextOutputPlugin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/OutputPlugin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/RingDisplayOutputPlugin$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/RingDisplayOutputPlugin$DisplayPanel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/RingDisplayOutputPlugin$RingDisplayOutputPluginFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/RingDisplayOutputPlugin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/TextOutputPlugin$TextOutputPluginFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/TextOutputPlugin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/java2d/Java2DOutputPlugin$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/java2d/Java2DOutputPlugin$DrawingPanel$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/java2d/Java2DOutputPlugin$DrawingPanel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/java2d/Java2DOutputPlugin$Java2DOutputPluginFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/java2d/Java2DOutputPlugin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/jgraph/JChordEdge.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/jgraph/JGraphHeavyweightRedirector$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/jgraph/JGraphHeavyweightRedirector.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/jgraph/JGraphHeavyweightView$JGraphHeavyweightRenderer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/jgraph/JGraphHeavyweightView.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/jgraph/JGraphOutputPlugin$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/jgraph/JGraphOutputPlugin$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/jgraph/JGraphOutputPlugin$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/jgraph/JGraphOutputPlugin$JGraphOutputPluginFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/jgraph/JGraphOutputPlugin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/jgraph/JGraphParallelEdgeRouter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/jgraph/NodeComponent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/jgraph/NodeInfoWindow$GeneralInfoPane.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/output/jgraph/NodeInfoWindow.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/overlay/OverlayPlugin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/overlay/geoip/GeoIPOverlayPlugin$GeoIPOverlayPluginFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/overlay/geoip/GeoIPOverlayPlugin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/overlay/nodesysteminfo/NodeSystemInfoOverlayPlugin$NodeSystemInfoOverlayPluginFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/overlay/nodesysteminfo/NodeSystemInfoOverlayPlugin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/source/DummyEventSourcePlugin$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/source/DummyEventSourcePlugin$DummyEventSourcePluginFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/source/DummyEventSourcePlugin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/source/EventSourcePlugin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/source/GlobalEventSourcePlugin$GlobalEventSourcePluginFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/source/GlobalEventSourcePlugin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/source/LocalEventSourcePlugin$LocalEventSourcePluginFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/networkmonitor/plugins/source/LocalEventSourcePlugin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/plaxton/factories/ClosestReplacementPolicyFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/plaxton/factories/NoReplacementPolicyFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/plaxton/impl/ClosestReplacementPolicy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/plaxton/impl/LeafSet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/plaxton/impl/NeighbourhoodSet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/plaxton/impl/NextHopResult.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/plaxton/impl/NoReplacementPolicy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/plaxton/impl/NodeViewer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/plaxton/impl/RoutingTable$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/plaxton/impl/RoutingTable$RouteIterator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/plaxton/impl/RoutingTable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/plaxton/interfaces/PlaxtonNode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/plaxton/interfaces/ReplacementPolicy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/plaxton/interfaces/ReplacementPolicyFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/exceptions/FileSystemCreationException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/exceptions/InvalidPathException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/exceptions/UpdateException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/factories/LocalFileBasedFileSystemFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/factories/StoreBasedFileSystemFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/impl/general/AbstractFileSystem.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/impl/general/StringData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/impl/localfilebased/FileBasedDirectory$DirectoryIterator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/impl/localfilebased/FileBasedDirectory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/impl/localfilebased/FileBasedFile.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/impl/localfilebased/FileBasedFileSystem.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/impl/localfilebased/FileBasedFileSystemObject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/impl/storebased/StoreBasedDirectory$CollectionIter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/impl/storebased/StoreBasedDirectory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/impl/storebased/StoreBasedFile.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/impl/storebased/StoreBasedFileSystem.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/impl/storebased/StoreBasedFileSystemObject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/interfaces/IDirectory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/interfaces/IFile.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/interfaces/IFilePath.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/interfaces/IFileSystem.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/interfaces/IFileSystemFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/test/MkDirTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/usecase/Person.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/util/MakeTestFiles.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/util/MkDir.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/util/MkFile.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/absfilesystem/util/RootGUIDStorage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/exceptions/AccessFailureException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/exceptions/BindingAbsentException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/exceptions/BindingPresentException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/exceptions/LockException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/exceptions/LockUseException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/exceptions/PersistenceException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/experiments/performance/filesystem/AbstractExperiment.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/experiments/performance/filesystem/Control.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/experiments/performance/filesystem/FileCreationExperiment.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/experiments/performance/filesystem/FileDeletionExperiment.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/experiments/performance/filesystem/FileReadExperiment.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/experiments/performance/filesystem/FileWriteExperiment.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/locking/impl/Lock.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/locking/impl/LockDepth.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/locking/impl/LockManager$UriFilterIterator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/locking/impl/LockManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/locking/impl/LockScope.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/locking/impl/LockType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/locking/impl/ResourceLockInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/locking/impl/test/LockManagerTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/locking/impl/test/ResourceLockInfoTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/locking/interfaces/ILock.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/locking/interfaces/ILockManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/locking/interfaces/IResourceLockInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/persistence/impl/AttributedStatefulObject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/persistence/impl/NameAttributedPersistentObjectBinding.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/persistence/impl/PIDGenerator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/persistence/impl/PersistentBase.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/persistence/impl/ReflectivePersistentObject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/persistence/impl/StatefulObject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/persistence/interfaces/IAttribute.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/persistence/interfaces/IAttributedStatefulObject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/persistence/interfaces/IAttributes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/persistence/interfaces/IData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/persistence/interfaces/IGUIDObject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/persistence/interfaces/INameAttributedPersistentObjectBinding.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/persistence/interfaces/IPIDGenerator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/persistence/interfaces/IPersistentObject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/persistence/interfaces/IStatefulObject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/persistence/interfaces/IVersionedPersistentObject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/policyControl/impl/LocalPolicyShim.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/policyControl/impl/StoragePolicy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/policyControl/interfaces/IPolicyControl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/policyControl/interfaces/IStoragePolicy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/exceptions/StoreGetException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/exceptions/StoreIntegrityException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/exceptions/StorePutException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/factories/AbstractStoreFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/factories/LocalFileBasedStoreFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/factories/ManagedLocalFileBasedStoreFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/general/NameGUIDBinding.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/distributed/impl/ErrorHandlingGUIDStore.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/localfilebased/ByteData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/localfilebased/FileData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/localfilebased/FileStore$PIDIterator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/localfilebased/FileStore.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/localfilebased/NameGUIDMap$DirectoryIterator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/localfilebased/NameGUIDMap.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/localfilebased/test/NameGUIDMapTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/distributedGUIDStore/interfaces/ILocation.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/factories/FileStoreBasedDataMapFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/factories/ReplicaDataMapFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/factories/ReplicaManagementServiceObjectFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/impl/ContentHashPidGeneratorFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/impl/DefaultReplicaDataMap.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/impl/DefaultReplicaManagementServiceObject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/impl/IReplicatingDataStore.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/interfaces/IDataMap.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/interfaces/IDataMapFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/interfaces/IPIDGeneratorFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/interfaces/IPolicyControl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/interfaces/IReplicaDataMap.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/interfaces/IReplicaDataMapFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/interfaces/IReplicaManagement.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/interfaces/IReplicaManagementServiceObject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/interfaces/IReplicaManagementServiceObjectFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/interfaces/IReplicatingDataStoreFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/interfaces/IStoragePolicy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/interfaces/IStorageStatus.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/interfaces/IStorageStatusQuery.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/interfaces/IGUIDPIDMap.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/interfaces/IGUIDStore.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/interfaces/IGUIDStoreFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/interfaces/IManagedGUIDPIDMap.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/interfaces/IManagedGUIDStore.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/interfaces/IManagedStore.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/interfaces/INameGUIDBinding.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/interfaces/INameGUIDMap.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/interfaces/IStore.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/test/FileStoreTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/store/test/StatefulObjectTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/util/Attribute.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/util/Attributes$AttributeIterator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/util/Attributes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/util/UriUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/util/test/UriUtilTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/entrypoints/WebDAVLauncher.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/entrypoints/WebDAVServer$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/entrypoints/WebDAVServer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/entrypoints/WebDAV_FileBased_Launcher.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/exceptions/HTTPException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/HTTP.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/InputStreamData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/LengthInputStream.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/MIME.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/Range.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/Request.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/RequestHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/Response.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/WebDAV.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/AbstractHTTPMethod.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/COPY.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/CopyOrMove.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/DELETE.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/GET.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/HEAD.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/LOCK$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/LOCK$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/LOCK$Predicate.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/LOCK.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/MKCOL.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/MOVE.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/OPTIONS.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/PROPFIND$PropFindRequest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/PROPFIND.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/PROPPATCH.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/PUT.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/UNLOCK.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/test/AbstractMethodTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/test/LOCKTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/test/OPTIONSTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/test/PROPFINDTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/interfaces/HTTPMethod.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/util/ISO8601Format.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/util/XMLHelper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/util/XMLLockPropertiesGen.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/Action.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/ActionQueue$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/ActionQueue.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/ArrayIterator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/Assert.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/BigSquareRoot.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/CommandLineArgs.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/CommandLineInput.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/DataUnavailableException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/Diagnostic.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/Error.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/ExceptionFactory$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/ExceptionFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/GUIDFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/IStreamProcessor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/InvalidKeyException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/KeyImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/KeyNotFoundException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/Network.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/Output.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/PIDFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/Processes$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/Processes$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/Processes$3$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/Processes$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/Processes$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/Processes$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/Processes$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/Processes$ProcessID.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/Processes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/RadixMethods.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/RandomBytes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/RandomGUID.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/RemoteRegistry.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/ReverseIterator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/SHA1KeyFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/SegmentArithmetic.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/Semaphore.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/StatsCalculator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/StringUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/TimeoutException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/VM_GUID.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/test/ActionQueueTest$TestAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/test/ActionQueueTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/test/AssertTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/test/BigIntComparator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/test/ExceptionFactoryTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/test/KeyFactoryTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/test/KeyImplTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/test/ProcessesTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/test/RandomString.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/test/SegmentArithmeticTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/test/rrtDeployment/DeployedClass.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/test/rrtDeployment/DeployedInterface.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/test/rrtDeployment/RRTClientSideTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/util/test/rrtDeployment/RRTServerSideTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/HTTP.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/uk/ac/stand/dcs/asa/storage/webdav/impl/MIME.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/util/UriUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/Action.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/ActionQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/ArrayIterator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/BigSquareRoot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/CommandLineArgs.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/CommandLineInput.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/Network.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/RadixMethods.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/RandomGUID.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/ReverseIterator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/Semaphore.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/StatsCalculator.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/HTTP.java" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/HTTP.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/LOCK.java" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/LOCK.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/PUT.java" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/PUT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdav-server.iml" afterPath="$PROJECT_DIR$/webdav-server.iml" />
     </list>
     <ignored path="webdav-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -422,7 +36,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -436,8 +49,14 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/PUT.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1185">
-              <caret line="94" column="70" selection-start-line="94" selection-start-column="70" selection-end-line="94" selection-end-column="70" />
-              <folding />
+              <caret line="94" column="70" lean-forward="false" selection-start-line="94" selection-start-column="70" selection-end-line="94" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#931#932#0" expanded="false" />
+                <element signature="e#960#961#0" expanded="false" />
+                <element signature="e#5074#5075#0" expanded="false" />
+                <element signature="e#5149#5150#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -445,24 +64,125 @@
       <file leaf-file-name="GET.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/GET.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1463">
-              <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+            <state relative-caret-position="540">
+              <caret line="62" column="22" lean-forward="false" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1465#1466#0" expanded="false" />
+                <element signature="e#1494#1495#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LOCK.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/LOCK.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="158" column="42" lean-forward="false" selection-start-line="158" selection-start-column="42" selection-end-line="158" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1067#1068#0" expanded="false" />
+                <element signature="e#1098#1099#0" expanded="false" />
+                <element signature="e#6539#6697#0" expanded="false" />
+                <element signature="e#6696#6697#0" expanded="false" />
+                <element signature="e#6866#6977#0" expanded="false" />
+                <element signature="e#6976#6977#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Attribute.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/util/Attribute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#493#0" expanded="false" />
+                <element signature="e#402#403#0" expanded="false" />
+                <element signature="e#429#430#0" expanded="false" />
+                <element signature="e#461#462#0" expanded="false" />
+                <element signature="e#489#490#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Attributes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/util/Attributes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#2463#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#668#669#0" expanded="false" />
+                <element signature="e#710#711#0" expanded="false" />
+                <element signature="e#746#747#0" expanded="false" />
+                <element signature="e#778#779#0" expanded="false" />
+                <element signature="e#842#843#0" expanded="false" />
+                <element signature="e#894#895#0" expanded="false" />
+                <element signature="e#1068#1069#0" expanded="false" />
+                <element signature="e#1134#1135#0" expanded="false" />
+                <element signature="e#1520#1521#0" expanded="false" />
+                <element signature="e#1566#1567#0" expanded="false" />
+                <element signature="e#1704#1705#0" expanded="false" />
+                <element signature="e#1774#1775#0" expanded="false" />
+                <element signature="e#1895#1896#0" expanded="false" />
+                <element signature="e#1956#1957#0" expanded="false" />
+                <element signature="e#2074#2075#0" expanded="false" />
+                <element signature="e#2123#2124#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataUnavailableException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/DataUnavailableException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#692#0" expanded="false" />
+                <element signature="e#279#280#0" expanded="false" />
+                <element signature="e#302#303#0" expanded="false" />
+                <element signature="e#389#390#0" expanded="false" />
+                <element signature="e#416#417#0" expanded="false" />
+                <element signature="e#506#507#0" expanded="false" />
+                <element signature="e#533#534#0" expanded="false" />
+                <element signature="e#655#656#0" expanded="false" />
+                <element signature="e#688#689#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LOCK.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/LOCK.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1193">
-              <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -472,7 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/SHA1KeyFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/experiments/ShowAveragePeerStateSize.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/jchord/util/JChordProperties.java" />
@@ -481,20 +200,17 @@
         <option value="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/HTTP.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/PUT.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/LOCK.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -502,10 +218,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
+    <option name="x" value="583" />
     <option name="y" value="23" />
-    <option name="width" value="2556" />
-    <option name="height" value="1577" />
+    <option name="width" value="1977" />
+    <option name="height" value="1413" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -530,14 +246,7 @@
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <OptionsSetting value="false" id="Update" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -548,7 +257,7 @@
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
@@ -558,59 +267,21 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
+              <option name="myItemId" value="archive-asa" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
+              <option name="myItemId" value="archive-asa" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
+              <option name="myItemId" value="archive-asa" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
+              <option name="myItemId" value="archive-asa" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -623,20 +294,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dcs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="asa" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
+              <option name="myItemId" value="archive-asa" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
+              <option name="myItemId" value="archive-asa" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -649,6 +340,68 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archive-asa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archive-asa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dcs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -660,17 +413,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webdav" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
+              <option name="myItemId" value="archive-asa" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
+              <option name="myItemId" value="archive-asa" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -686,227 +439,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="asa" />
+              <option name="myItemId" value="uk" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
+              <option name="myItemId" value="ac" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webdav" />
+              <option name="myItemId" value="stand" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="interfaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="dcs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="asa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdav" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdav" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="methods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdav" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exceptions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdav" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entrypoints" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdav-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="GO_FMT" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Application.WebDAVLauncher">
     <configuration default="false" name="WebDAVLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -933,6 +519,7 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -958,83 +545,37 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
       <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="" />
       <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
-      <module name="" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
       <method />
     </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
@@ -1053,15 +594,6 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="depsClasspath" value="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1074,27 +606,6 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -1125,10 +636,45 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="webdav-server" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -1137,68 +683,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -1211,23 +695,10 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
       <method />
     </configuration>
     <list size="1">
@@ -1254,6 +725,7 @@
       <updated>1458731275416</updated>
       <workItem from="1458731276827" duration="11070000" />
       <workItem from="1458816703425" duration="4392000" />
+      <workItem from="1491988926924" duration="428000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit - got head from quicksilver cvs repo&#10;&#10;smb://quicksilver.home.cs.st-andrews.ac.uk/quicksilver_private/systems_cvsroot/asa/">
       <created>1458818382399</created>
@@ -1266,38 +738,42 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15462000" />
+    <option name="totallyTimeSpent" value="15890000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="2556" height="1577" extended-state="6" />
-    <editor active="false" />
+    <frame x="583" y="23" width="1977" height="1413" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37037036" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26397306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25252524" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22155927" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975337" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28992248" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25252524" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975337" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37037036" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1311,6 +787,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="initial commit - got head from quicksilver cvs repo&#10;&#10;smb://quicksilver.home.cs.st-andrews.ac.uk/quicksilver_private/systems_cvsroot/asa/" />
     <option name="LAST_COMMIT_MESSAGE" value="initial commit - got head from quicksilver cvs repo&#10;&#10;smb://quicksilver.home.cs.st-andrews.ac.uk/quicksilver_private/systems_cvsroot/asa/" />
   </component>
@@ -1333,80 +812,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/test/OPTIONSTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/test/PROPFINDTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/CopyOrMove.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/COPY.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/DELETE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/HEAD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#813#814#0" expanded="false" />
-            <element signature="e#843#844#0" expanded="false" />
-            <element signature="e#2221#2222#0" expanded="false" />
-            <element signature="e#2257#2258#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/UNLOCK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#617#618#0" expanded="false" />
-            <element signature="e#649#650#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/MKCOL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="false" />
             <element signature="e#793#794#0" expanded="false" />
@@ -1418,7 +827,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/MOVE.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="false" />
             <element signature="e#441#442#0" expanded="false" />
@@ -1430,7 +839,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/OPTIONS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="false" />
             <element signature="e#771#772#0" expanded="false" />
@@ -1444,7 +853,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/PROPFIND.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="false" />
             <element signature="e#1592#1593#0" expanded="false" />
@@ -1456,7 +865,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/PROPPATCH.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="false" />
             <element signature="e#734#735#0" expanded="false" />
@@ -1468,7 +877,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/MIME.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -1478,7 +887,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/RequestHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1575">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding>
             <element signature="e#0#3864#0" expanded="false" />
             <element signature="imports" expanded="false" />
@@ -1489,18 +898,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/ActionQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3030">
-          <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#6687#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/GUIDFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1508,137 +913,106 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/applications/store/StorageException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/applications/store/InitialisationException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/applications/ringVis/AdminNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/applications/ringVis/JChordViewerGUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1232">
-          <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
-          <folding />
+          <caret line="122" column="8" lean-forward="false" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/applications/ringVis/AdminGUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/jchord/deploy/NodeLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///private/var/folders/19/h40plvg553z94_p56pwhpc9h0000gn/T/modules.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MODULES</ID>
-          <OriginalElement />
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="70.0" />
-          <SelectedNodes />
-          <Categories />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///private/var/folders/19/h40plvg553z94_p56pwhpc9h0000gn/T/modules.uml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/simulation/simulationFactories/JChordSimulationFactoryGeometricC1_4SD0.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/simulation/interfaces/P2PSim.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/policyControl/impl/StoragePolicy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/policyControl/impl/LocalPolicyShim.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1373">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/plaxton/impl/test/PlaxtonNodeImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/store/impl/newDistibuted/genericP2PStore/impl/ReplicatingDataStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
-          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="48" column="57" lean-forward="false" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/util/ISO8601Format.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/util/XMLHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-780">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/util/XMLLockPropertiesGen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1646,7 +1020,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/WebDAV.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1654,23 +1028,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/interfaces/HTTPMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="27" />
-          <folding />
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/absfilesystem/interfaces/IFileSystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-          <folding />
+          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/AbstractHTTPMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1678,7 +1050,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/InputStreamData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="26" />
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1686,7 +1058,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/HTTP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1973">
-          <caret line="29" column="95" selection-start-line="29" selection-start-column="95" selection-end-line="29" selection-end-column="95" />
+          <caret line="29" column="95" lean-forward="false" selection-start-line="29" selection-start-column="95" selection-end-line="29" selection-end-column="95" />
           <folding />
         </state>
       </provider>
@@ -1694,7 +1066,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/Range.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1702,7 +1074,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/Response.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3353">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1710,7 +1082,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/LengthInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1718,47 +1090,42 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/entrypoints/WebDAV_DistributedStore_Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/entrypoints/WebDAV_FileBased_Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/entrypoints/WebDAVLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
-          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-          <folding />
+          <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2295">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/Request.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+          <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1766,37 +1133,147 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/PUT.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1185">
-          <caret line="94" column="70" selection-start-line="94" selection-start-column="70" selection-end-line="94" selection-end-column="70" />
-          <folding />
+          <caret line="94" column="70" lean-forward="false" selection-start-line="94" selection-start-column="70" selection-end-line="94" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#931#932#0" expanded="false" />
+            <element signature="e#960#961#0" expanded="false" />
+            <element signature="e#5074#5075#0" expanded="false" />
+            <element signature="e#5149#5150#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/exceptions/HTTPException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="757">
-          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+          <caret line="74" column="19" lean-forward="false" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/GET.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1463">
-          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="540">
+          <caret line="62" column="22" lean-forward="false" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1465#1466#0" expanded="false" />
+            <element signature="e#1494#1495#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/webdav/impl/methods/LOCK.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1193">
-          <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
+        <state relative-caret-position="405">
+          <caret line="158" column="42" lean-forward="false" selection-start-line="158" selection-start-column="42" selection-end-line="158" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1067#1068#0" expanded="false" />
+            <element signature="e#1098#1099#0" expanded="false" />
+            <element signature="e#6539#6697#0" expanded="false" />
+            <element signature="e#6696#6697#0" expanded="false" />
+            <element signature="e#6866#6977#0" expanded="false" />
+            <element signature="e#6976#6977#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/util/Attribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#493#0" expanded="false" />
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#429#430#0" expanded="false" />
+            <element signature="e#461#462#0" expanded="false" />
+            <element signature="e#489#490#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/util/Attributes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#2463#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#668#669#0" expanded="false" />
+            <element signature="e#710#711#0" expanded="false" />
+            <element signature="e#746#747#0" expanded="false" />
+            <element signature="e#778#779#0" expanded="false" />
+            <element signature="e#842#843#0" expanded="false" />
+            <element signature="e#894#895#0" expanded="false" />
+            <element signature="e#1068#1069#0" expanded="false" />
+            <element signature="e#1134#1135#0" expanded="false" />
+            <element signature="e#1520#1521#0" expanded="false" />
+            <element signature="e#1566#1567#0" expanded="false" />
+            <element signature="e#1704#1705#0" expanded="false" />
+            <element signature="e#1774#1775#0" expanded="false" />
+            <element signature="e#1895#1896#0" expanded="false" />
+            <element signature="e#1956#1957#0" expanded="false" />
+            <element signature="e#2074#2075#0" expanded="false" />
+            <element signature="e#2123#2124#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/util/UriUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="78" column="35" lean-forward="false" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/DataUnavailableException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#692#0" expanded="false" />
+            <element signature="e#279#280#0" expanded="false" />
+            <element signature="e#302#303#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
+            <element signature="e#416#417#0" expanded="false" />
+            <element signature="e#506#507#0" expanded="false" />
+            <element signature="e#533#534#0" expanded="false" />
+            <element signature="e#655#656#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
   <component name="hg4idea.settings">
+    <option name="CHECK_INCOMING_OUTGOING" value="true" />
     <option name="RECENT_HG_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="masterDetails">
