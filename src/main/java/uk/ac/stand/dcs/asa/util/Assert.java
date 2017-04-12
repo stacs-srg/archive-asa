@@ -9,7 +9,8 @@ public class Assert {
     public static void assertion(boolean condition, String message) {
 
         if (!condition) {
-            Error.hardError(message);
+            System.out.println(message);
+            System.exit(-1);
         }
     }
 }

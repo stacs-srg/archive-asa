@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="081c4ee9-42bb-4ef3-b620-93dd42d1c311" name="Default" comment="initial commit - got head from quicksilver cvs repo&#10;&#10;smb://quicksilver.home.cs.st-andrews.ac.uk/quicksilver_private/systems_cvsroot/asa/">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/storage/util/UriUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/Action.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/ActionQueue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/ArrayIterator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/BigSquareRoot.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/CommandLineArgs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/CommandLineInput.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/Network.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/RadixMethods.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/RandomGUID.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/ReverseIterator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/Semaphore.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/ac/stand/dcs/asa/util/StatsCalculator.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="081c4ee9-42bb-4ef3-b620-93dd42d1c311" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdav-server.iml" afterPath="$PROJECT_DIR$/webdav-server.iml" />
     </list>
     <ignored path="webdav-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -725,7 +705,7 @@
       <updated>1458731275416</updated>
       <workItem from="1458731276827" duration="11070000" />
       <workItem from="1458816703425" duration="4392000" />
-      <workItem from="1491988926924" duration="428000" />
+      <workItem from="1491988926924" duration="483000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit - got head from quicksilver cvs repo&#10;&#10;smb://quicksilver.home.cs.st-andrews.ac.uk/quicksilver_private/systems_cvsroot/asa/">
       <created>1458818382399</created>
@@ -734,11 +714,18 @@
       <option name="project" value="LOCAL" />
       <updated>1458818382399</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Moved some old utility classes to new repository.">
+      <created>1491989403196</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1491989403196</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15890000" />
+    <option name="totallyTimeSpent" value="15945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="583" y="23" width="1977" height="1413" extended-state="0" />
@@ -787,11 +774,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="initial commit - got head from quicksilver cvs repo&#10;&#10;smb://quicksilver.home.cs.st-andrews.ac.uk/quicksilver_private/systems_cvsroot/asa/" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit - got head from quicksilver cvs repo&#10;&#10;smb://quicksilver.home.cs.st-andrews.ac.uk/quicksilver_private/systems_cvsroot/asa/" />
+    <MESSAGE value="Moved some old utility classes to new repository." />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved some old utility classes to new repository." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1119,6 +1109,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2295">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
